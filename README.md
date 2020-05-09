@@ -8,3 +8,5 @@ It contains Courses on
     Algorithms like sorting , searching , graph etc
     C++ Language
     And lots of stuffs
+ 
+ Basically problems are collected from Codeforce, Codechef, Hackerrank etc..
