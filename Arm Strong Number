@@ -1,0 +1,27 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+  int n;  cin>>n;
+  int lastdigit,new_n, power=0;  int sum=0;
+  new_n=n;
+  while(n!=0)
+  {
+    n=n/10;
+    power++;
+  }
+
+  n=new_n;
+  while(n!=0)
+  {
+    lastdigit=n%10;
+    sum=sum+pow(lastdigit,power);
+    n=n/10;
+  }
+cout<<"sum is: "<<sum<<endl;
+  if(new_n==sum)
+    cout<<"it is Armstrong no"<<endl;
+  else
+  cout<<"it is not";
+}
